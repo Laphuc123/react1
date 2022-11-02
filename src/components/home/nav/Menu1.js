@@ -7,7 +7,7 @@ class Menu1 extends React.Component{
       this.state = {
         showMenu: true
       };
-      this.removeMenu=this.removeMenu.bind(this)
+      this.removeMenu=this.removeMenu.bind()
   }
   removeMenu(){
     console.log('aaa');
