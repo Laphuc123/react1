@@ -7,10 +7,9 @@ class Menu1 extends React.Component{
       this.state = {
         showMenu: true
       };
-      this.removeMenu=this.removeMenu.bind()
+      this.removeMenu=this.removeMenu.bind(this)
   }
   removeMenu(){
-    console.log('aaa');
     this.setState({
       showMenu: !this.state.showMenu
     });
@@ -22,7 +21,7 @@ class Menu1 extends React.Component{
             <ul className='block'>
                 <li className='inline-block'>
                 <button className="" onClick={this.removeMenu}><img src={icon} alt=""></img></button>
-                    <div className={this.state.showMenu?'dropdown_content hidden ':'dropdown_content block'}>
+                    <div className={this.state.showMenu?'dropdown_content hidden ':'dropdown_content block text-left'}>
                         <a>
                             <div>
                                 <p className='text-[18px] fonr-[400] text-[#272D38] hover:text-[#8EADD5]'>home</p>
