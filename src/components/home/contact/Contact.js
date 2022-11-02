@@ -1,5 +1,6 @@
 import React from 'react'
 import img from "../../../images/customer-support.png";
+import Button from '../button/Button';
 
 export default function Contact() {
   return (
@@ -18,9 +19,7 @@ export default function Contact() {
                             <div className="text-center sm:w-[80%] sm:text-left">
                                 <p className="text-[20px] font-[300] text-[#272D38] mt-5">We work with Brans, Startups, to SMEs. Colaborate for more impact and growt</p>
                             </div>
-                            <div className="text-center sm:text-left mt-5">
-                                <button className="border border-[#8EADD5] font-[600] bg-[#8EADD5] hover:bg-white hover:text-[#8EADD5] text-white text-[17px] py-1 px-5 rounded-[8px] sm:py-2 sm:px-7">Contact Us</button>
-                            </div>
+                            <Button/>
                         </div>
                     </div>
                 </div>

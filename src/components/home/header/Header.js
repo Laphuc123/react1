@@ -1,8 +1,7 @@
 import React from 'react'
 import logo from "../../../images/Digital Agency.png";
 import menu from "../../../images/menu.png";
-import Menu from '../nav/Menu';
-import './Header.css';
+import Menu1 from '../nav/Menu1';
 
 export default function Header() {
   return (
@@ -11,7 +10,7 @@ export default function Header() {
             <div className="w-[50%] text-left">
                 <img className="w-[70%] sm:w-[30%]" src={logo} alt=""/>
             </div>
-            <Menu/>
+            <Menu1/>
         </div>
     </div>
   )

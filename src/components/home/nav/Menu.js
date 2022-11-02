@@ -10,10 +10,10 @@ export default function Menu() {
     }
   return (
     <div>
-        <div className='block sm:hidden'>
-            <ul className=''>
+        <div className='sm:hidden'>
+            <ul className='block'>
                 <li className='inline-block'>
-                <a  href="" className="icon" onClick={menu}><img src={icon} alt=""></img></a>
+                <button className="" onClick={menu}><img src={icon} alt=""></img></button>
                     <div className={checkMenu === true ? "dropdown_content none" : "dropdown_content block"}>
                         <a>
                             <div>
